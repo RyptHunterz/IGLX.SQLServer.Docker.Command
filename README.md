@@ -1,3 +1,3 @@
-# IGLX.SQLServer.Docker.Command
+# Snowdeed.SQLServer.Docker.Command
 
 Only for Mac OS Catalina with Docker Desktop installed.
