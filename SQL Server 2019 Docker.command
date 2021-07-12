@@ -32,7 +32,7 @@ SAPassword="UCwXdVHgWb3JrZGrvytMWqQgsakDVyKpsPuz5SB6"
 docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=$SAPassword -e MSSQL_PID=Express -p 1433:1433 --name $Name -d mcr.microsoft.com/mssql/server:$IdImage
 
 echo ""
-Echo "SQL Server installé !"
+echo "SQL Server installé !"
 echo ""
 echo "LOGIN : sa"
 echo "PASSWORD : $SAPassword"
